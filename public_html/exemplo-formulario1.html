@@ -1,0 +1,98 @@
+
+<html>
+    <head>
+        <title>Exemplo Formulário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos/meuestilo.css"
+    </head>
+    <body>
+        <form method="post">
+            <table align="center">
+            <tr>
+            <td> <label for="nome">Nome:</label> </td>
+            <td>   <input type="text" name="nome" id="nome" placeholder="Seu nome aqui..." required autofocus> </td>
+            </tr>
+            
+            <tr>
+            <td> <label for="Endereço">Endereço:</label> </td>
+            <td> <input type="text" name="Endereço" id="endereço" autofocus> </td> 
+            </tr>
+            <tr>
+                <td>
+                    <label for="cidade">Cidades</label>
+                </td>
+                <td>
+                    <select name="Cidade" id="cidade">
+                        <option>Escolha a cidade</option>
+                        <optgroup label="Rio Grande do Norte">
+                        <option value="natal">Natal</option>
+                        <option value="mossoro">Mossoro</option>
+                        <optgroup label="Paraiba">
+                        <option value="jampa">João Pessoa
+                        </option>
+                        <option value="campina">Campina Grande</option>
+                        <optgroup label="Pernambuco">
+                        <option value="recife">Recife</option>
+                        <option value="petrolina">Petrolina</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for='idade'>Idade:</label></td>
+                <td>  <input type='number' name='idade' id='idade' min="18" max="70">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for='satisfacao'>Satisfação:</label></td>
+                <td>  <input type='range' name='satisfacao' id='satisfacao'  min="0" max="5" value="5">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for='sexo'>Sexo:</label></td>
+                <td> <LABEL CLASS="SEXO"> <input type='radio' name='sexo' id='sexo' value="masculino" checked>Masculino</label>
+                
+                    <LABEL CLASS="SEXO"><input type='radio' name='sexo' id='sexo' value="feminino" checked>Feminino</label>
+                        <LABEL CLASS="SEXO"> <input type='radio' name='sexo' id='sexo' value="outros" checked>Outros</label>
+                </td>
+                
+            </tr>
+            <tr>
+                <td><label for="interesses">Interesses:</label></td>
+                <td>
+            <input type="checkbox" name="filmes" id="filmes">Filmes
+            <input type="checkbox" name="esporte" id="esporte">Esporte
+            <input type="checkbox" name="tv" id="tv">TV
+            <input type="checkbox" name="livros" id="livros">Livros
+            <input type="checkbox" name="outros" id="outros">Outros
+                </td>
+            </tr>
+            
+            <tr>
+            <td> <label for="data-agendamento">Data Agendamento:</label> </td>
+            <td> <input type="date" name="data-agendamento" id="data-agendamento"> </td> 
+            </tr>
+            <tr>
+            <td> <label for="hora-agendamento">Hora Agendamento:</label> </td>
+            <td> <input type="time" name="hora-agendamento" id="hora-agendamento"> </td>
+            <tr>
+                <td><label for='sugestao'>Sugestões:</label></td>
+                <td> <textarea class="borda-estilizada" class="borda-arredondada" id='sugestao' rows='5' ;"></textarea></td>
+            </tr>
+            <tr>
+ <td colspan="2">
+     <input class="fonte-estilizada" type="submit" value="Enviar">
+     <input type="reset" value="Limpar">
+     <input type="button" value="Exibir" onclick="alert('botão de autodestruição!!!')">
+ </td>
+            </tr>
+            
+        </table>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    background-color: yellow;
+    color: red;
+     }
+     input, textarea, select{
+         color: blue;
+         
+     }
+     select{
+         border: none;
+     }
+     #endereço{
+         color: pink;
+         font-weight: bolder;
+     }
+     .sexo{
+         color: purple;
+         font-weight: bold;
+         font-size: 16pt;
+     }
+     .borda-estilizada{
+         border-style: dashed;
+         border-width: 5px;
+         border-color: rgb(55,42,0);
+     }
+     .sexo{
+         text-align: sexo;
+         border:3px solid green
+         
+     }
+   
+     table{
+         margin: 0 auto;
+     }
+     .fonte-estilizada{
+         font-family: "comic sans ms";
+         font-size: 18pt;
+         color: chartreuse;
+     }
+     textarea {
+         background-image: url(../logo.png);
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+     }
+         
+     .borda-arredondada {
+         border-radius:10px
+     }

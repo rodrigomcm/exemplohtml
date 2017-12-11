@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Trabalhe Conosco</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <table align="center">
+            <form method="post">
+                <th align="center" colspan="5">Trabalhe Conosco</th>
+                
+                <tr>
+                    <td> <label>Ensino:</label></td>
+                 <td>
+                    <select name="ensino" id="ensino">
+                        <option disabled>Escolha o ensino</option>
+                        <optgroup label="Fundamental">
+                        <option value="completo">Completo</option>
+                        <option value="incompleto">Incompleto</option>
+                        <optgroup label="Médio">
+                        <option value="completo">Completo
+                        </option>
+                        <option value="incompleto">Incompleto</option>
+                        <optgroup label="Superior">
+                        <option value="completo">Completo</option>
+                        <option value="incompleto">Incompleto</option>
+                        <optgroup label="Técnico">
+                        <option value="completo">Completo</option>
+                        <option value="incompleto">Incompleto</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+            <td> <label for="nome">Nome:</label> </td>
+            <td>   <input type="text" name="nome" id="nome" placeholder="Seu nome aqui..." required autofocus> </td>
+            </tr>
+            <tr>
+            <td> <label for="Endereço">Endereço:</label> </td>
+            <td> <input type="text" name="Endereço" id="endereço" autofocus> </td> 
+            </tr>
+             <td>
+                    <label for="cidade">Cidade:</label>
+                </td>
+              <td> <input type="text" name="cidade" id="cidade" autofocus> </td> 
+            </tr>
+             <tr>
+                <td>
+                    <label for='idade'>Idade:</label></td>
+                <td>  <input type='number' name='idade' id='idade' min="18" max="70">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for='sexo'>Sexo:</label></td>
+                <td>  <input type='radio' name='sexo' id='sexo' value="masculino" checked>Masculino
+                
+                    <input type='radio' name='sexo' id='sexo' value="feminino" checked>Feminino
+                    <input type='radio' name='sexo' id='sexo' value="outros" checked>Outros
+                </td>
+                
+            </tr>
+            <tr>
+            <td> <label for="data-nascimento">Data de Nascimento:</label> </td>
+            <td> <input type="date" name="data-nascimento" id="data-nascimento "> </td>
+                      
+            </tr>
+             <tr>
+            <td> <label for="email">Email:</label> </td>
+            <td> <input type="text" name="email" id="email" autofocus> </td> 
+            </tr>
+            <tr>
+                <td><label for='experiencia'>Experiências e Habilidades:</label></td>
+                <td> <textarea name='experiencia' id='experiencia' rows='5'style="resize:none;"></textarea></td>
+            </tr>
+              <tr>
+ <td align="center" colspan="2">
+     <input type="submit" value="Enviar">
+     <input type="reset" value="Limpar">
+     <input type="button" value="Exibir" onclick="alert('botão de autodestruição!!!')">
+ </td>
+            </tr>
+            </form>
+            
+        </table>
+        
+    </body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Eleição lider de sala</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    </head>
+    <body>
+        <table align="center">
+            
+            <form method="post">
+                <thead>
+                <th colspan="2"align="center">Eleição Líder de Sala</th>
+            </thead>
+                <tr>
+              
+                <td>  <label for="lider">Líder:</label></td>
+                <td> <input type="checkbox" name="joao" id="joao" value="joao">João
+                     <input type="checkbox" name="maria" id="maria" value="maria">Maria
+                      <input type="checkbox" name="josé" id="josé" value="josé">José
+                       <input type="checkbox" name="francisco" id="francisco" value="francisco">Francisco
+                </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <label for="vice-lider">Vice-Líder:</label>
+                        
+                    </td>
+                    <td>
+                        <input type="checkbox" name="joao" id="joao" value="joao">João
+                        <input type="checkbox" name="pedro" id="pedro" value="pedro">Pedro
+                        <input type="checkbox" name="luiza" id="luiza" value="luiza">Luiza
+                        <input type="checkbox" name="maria" id="maria" value="maria">Maria
+                    </td>
+                </tr>
+               
+                 <tr>
+                    <td>
+                        <label for="vice-lider">Secretário:</label>
+                        
+                    </td>
+                    <td>
+                        <input type="checkbox" name="maria" id="maria" value="maria">Maria
+                        <input type="checkbox" name="pedro" id="pedro" value="pedro">Pedro
+                        <input type="checkbox" name="luiza" id="luiza" value="luiza">Luiza
+                        <input type="checkbox" name="alexandre" id="alexandre" value="alexandre">Alexandre
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <label for="humorista">Humorista:</label>
+                        
+                    </td>
+                    <td>
+                        <input type="checkbox" name="francisco" id="francisco" value="francisco">Francisco
+                        <input type="checkbox" name="pedro" id="pedro" value="pedro">Pedro
+                        <input type="checkbox" name="luiza" id="luiza" value="luiza">Luiza
+                        <input type="checkbox" name="alexandre" id="alexandre" value="alexandre">Alexandre
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <label for="estiloso">Estiloso:</label>
+                        
+                    </td>
+                    <td>
+                        <input type="checkbox" name="joao" id="joao" value="joao">João
+                        <input type="checkbox" name="pedro" id="pedro" value="pedro">Pedro
+                        <input type="checkbox" name="luiza" id="luiza" value="luiza">Luiza
+                        <input type="checkbox" name="amanda" id="amanda" value="amanda">Amanda
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <label for="timido">Tímido</label>
+                        
+                    </td>
+                    <td>
+                        <input type="checkbox" name="joao" id="joao" value="joao">João
+                        <input type="checkbox" name="maria" id="maria" value="maria">Maria
+                        <input type="checkbox" name="jose" id="jose" value="jose">José
+                        <input type="checkbox" name="alexandre" id="alexandre" value="alexandre">Amanda
+                    </td>
+                </tr>
+                <th colspan="2" align="center">Informações Pessoais do Eleitor</th>
+                <tr>
+            <td> <label for="nome">Nome:</label> </td>
+            <td>   <input type="text" name="nome" id="nome" placeholder="Seu nome aqui..." required autofocus> </td>
+            </tr>
+            <tr>
+            <td> <label for="Endereço">Endereço:</label> </td>
+            <td> <input type="text" name="Endereço" id="endereço" autofocus> </td> 
+            </tr>
+            <tr>
+                <td>
+                    <label for="cidade">Cidade:</label>
+                </td>
+              <td> <input type="text" name="cidade" id="cidade" autofocus> </td> 
+            </tr>
+            <tr>
+                <td>
+                    <label for='idade'>Idade:</label></td>
+                <td>  <input type='number' name='idade' id='idade' min="18" max="70">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for='sexo'>Sexo:</label></td>
+                <td>  <input type='radio' name='sexo' id='sexo' value="masculino" checked>Masculino
+                
+                    <input type='radio' name='sexo' id='sexo' value="feminino" checked>Feminino
+                    <input type='radio' name='sexo' id='sexo' value="outros" checked>Outros
+                </td>
+                
+            </tr>
+            <tr>
+            <td> <label for="data-nascimento">Data de Nascimento:</label> </td>
+            <td> <input type="date" name="data-nascimento" id="data-nascimento "> </td>
+                      
+            </tr>
+            <tr>
+            <td> <label for="email">Email:</label> </td>
+            <td> <input type="text" name="email" id="email" autofocus> </td> 
+            </tr>
+            
+                  <tr>
+ <td colspan="2">
+     <input type="submit" value="Enviar">
+     <input type="reset" value="Limpar">
+     <input type="button" value="Exibir" onclick="alert('botão de autodestruição!!!')">
+ </td>
+            </tr>
+            </form>
+        </table>
+    </body>
+</html>
